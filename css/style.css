@@ -1,0 +1,182 @@
+body{
+    background: url(../img/landscape_11208-2310.jpeg) 0 0 no-repeat;
+}
+
+.wrapper{
+    position: relative;	
+    min-height: 100%;
+    
+}
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(137, 43, 226, 0.143);
+    z-index: 100;
+}
+.header__container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header__menu {
+}
+.menu {
+    font-size: 0;   
+}
+.menu__item {
+	position: relative;
+    display: inline-block;
+}
+.menu__item:hover .sub-menu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+
+}
+.menu__item:not(:last-child) {
+    margin-right: 100px;
+
+}
+.menu__link {
+    font-size: 35px;
+    color: white;
+	display: inline-block;
+	padding: 5px 0px;
+}
+.sub-menu {
+    background-color: rgba(43, 220, 226, 0.607);
+	padding: 15px;
+	position: absolute;
+	min-width: 100px;
+	top: 130%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+	border-radius: 10px;
+}
+.sub-menu__item {
+}
+.sub-menu__item:not(:last-child){
+	margin-bottom: 15px;
+
+}
+.sub-menu__link {
+    font-size: 18px;
+    color: rgb(104, 7, 62);
+}
+
+
+.car__roof{
+    width: 400px;
+	height: 100px;
+	background-color: rgb(175, 17, 99);
+	border-radius: 80px 80px 40px 40px;
+	position: absolute;
+	top: 500px;
+    left:1100px;
+    border: 1px solid green;
+}
+.car__corpus {
+    width: 600px;
+	height: 200px;
+	background-color: rgb(175, 17, 99);
+	border-radius: 80px 80px 40px 40px;
+	position: absolute;
+	top: 600px;
+    left:1000px;
+}
+
+.truck__left {
+    width: 100px;
+	height: 100px;
+	background-color: rgb(226, 71, 20);
+	border-radius:50px;
+	position: absolute;
+	top: 750px;
+    left:1020px;
+}
+.truck__right {
+    width: 100px;
+	height: 100px;
+	background-color: rgb(226, 71, 20);
+	border-radius:50px;
+	position: absolute;
+	top: 750px;
+    left:1480px;
+}
+
+.disc__right {
+    width: 70px;
+	height: 70px;
+	background: url(../img/diska-krasivo-39.jpeg) 0 0/ 100% no-repeat;
+	border-radius:50px;
+	position: absolute;
+	top: 765px;
+    left:1495px;
+}
+.disc__left {
+    width: 70px;
+	height: 70px;
+	background: url(../img/diska-krasivo-39.jpeg) 0 0/ 100% no-repeat;
+	border-radius:50px;
+	position: absolute;
+	top: 765px;
+    left:1035px;
+	
+}
+.car__light {
+    width: 40px;
+	height: 40px;
+	background-color: rgb(251, 247, 34);
+	border-radius:50px;
+	position: absolute;
+	top: 710px;
+    left: 1560px;
+	border: 5px solid black;
+}
+.window__one{
+    width: 80px;
+	height: 80px;
+	background-color:   rgba(16, 158, 194, 0.66);
+	border-radius:20px;
+	position: absolute;
+	top: 650px;
+    left:1100px; 
+	border: 5px solid rgb(203, 64, 9);
+}
+.window__two{
+    width: 80px;
+	height: 80px;
+	background-color: rgba(16, 158, 194, 0.66);
+	border-radius:20px;
+	position: absolute;
+	top: 650px;
+    left:1250px; 
+	border: 5px solid rgb(203, 64, 9);
+
+}
+.window__three{
+    width: 80px;
+	height: 80px;
+	background-color: rgba(16, 158, 194, 0.66);
+	border-radius:20px;
+	position: absolute;
+	top: 650px;
+    left:1400px; 
+	border: 5px solid rgb(203, 64, 9);
+
+}
+.window__four{
+    width: 300px;
+	height: 80px;
+	background-color: rgba(16, 158, 194, 0.66);
+	border-radius: 80px 80px 40px 40px;
+	position: absolute;
+	top: 510px;
+    left:1150px;
+    border: 1px solid green;
+	border: 5px solid rgb(203, 64, 9);
+}
+
